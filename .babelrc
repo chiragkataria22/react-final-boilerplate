@@ -1,0 +1,18 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "bugfixes": true
+      }
+    ],
+    "@babel/preset-react",
+    "@babel/preset-typescript"
+  ],
+  "plugins": [
+    "@loadable/babel-plugin",
+    "babel-plugin-styled-components",
+    ["@babel/plugin-proposal-class-properties", { "loose": false }]
+  ],
+  "ignore": ["node_modules", "build"]
+}
