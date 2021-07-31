@@ -15,6 +15,7 @@
     "@types/styled-components": "^5.1.9",
     "css-loader": "^5.2.6",
     "dotenv": "^10.0.0",
+    "mini-css-extract-plugin": "^2.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-config": "^5.1.1",
