@@ -1,8 +1,13 @@
-import React from "react";
-import { AppStyled } from "./styles";
+import React from 'react';
+import { AppStyled } from './styles';
+import './app.css';
 
 const App = () => {
-  return <AppStyled>Welcome to the React Final Boiler Plate</AppStyled>;
+  return (
+    <div className='bg-color'>
+      <AppStyled>Welcome to the React Final Boiler Plate</AppStyled>
+    </div>
+  );
 };
 
 export default App;
